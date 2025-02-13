@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head><link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<body>
+    <div class="JEE-Visuals">JEE Visuals</div>
+    <div class="search-container">
+    <input type="text" placeholder="Search..." class="search-bar">
+    <i class="fa fa-search search-icon"></i>
+</div> 
+    <div class="buttons">
+
+<a href="Physics.html" class="button physics-button">Physics</a>
+<a href="Chemistry.html" class="button chemistry-button">Chemistry</a>
+<a href="Mathematics.html" class="button maths-button">Mathematics</a>
+</div>
+   
+ </div>
+</body>
+</html>
+<div class="hover-container">
+    <div class="default">
+        <img src="chatbot.jpg" alt="ChatBot" />
+    </div>
+    <div class="hovered">
+        <p>JEE<br>Genie</p>
+    </div>
+</div>
+<div class="chat-container">
+    <div id="chat-box"></div>
+    <input type="text" id="user-input" placeholder="Type a message..." />
+    <button onclick="sendMessage()">Send</button>
+</div>
+<script src="chatbot.js"></script>
